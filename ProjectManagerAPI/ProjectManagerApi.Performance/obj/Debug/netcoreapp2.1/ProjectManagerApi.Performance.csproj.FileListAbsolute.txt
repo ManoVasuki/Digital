@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\bin\Debug\netcoreapp2.1\ProjectManagerApi.Performance.deps.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\bin\Debug\netcoreapp2.1\ProjectManagerApi.Performance.runtimeconfig.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\bin\Debug\netcoreapp2.1\ProjectManagerApi.Performance.runtimeconfig.dev.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\bin\Debug\netcoreapp2.1\ProjectManagerApi.Performance.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\obj\Debug\netcoreapp2.1\ProjectManagerApi.Performance.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\obj\Debug\netcoreapp2.1\ProjectManagerApi.Performance.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\obj\Debug\netcoreapp2.1\ProjectManagerApi.Performance.AssemblyInfo.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\bin\Debug\netcoreapp2.1\ProjectManagerApi.Performance.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\obj\Debug\netcoreapp2.1\ProjectManagerApi.Performance.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\obj\Debug\netcoreapp2.1\ProjectManagerApi.Performance.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\ProjectManagerApi.Performance\obj\Debug\netcoreapp2.1\ProjectManagerApi.Performance.csprojAssemblyReference.cache

@@ -1,0 +1,24 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.deps.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csproj.CopyComplete
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.deps.json
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.dll
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.pdb
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.csproj.CopyComplete
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\DataAccessLayer\obj\Debug\netcoreapp2.1\DataAccessLayer.pdb

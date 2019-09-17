@@ -1,0 +1,2179 @@
+{
+  "BusinessEntities.dll": {
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\BusinessEntities\\ParentTask.cs": {
+      "BusinessEntities.ParentTask": {
+        "System.Int32 BusinessEntities.ParentTask::get_ParentId()": {
+          "Lines": {
+            "7": 138
+          },
+          "Branches": []
+        },
+        "System.String BusinessEntities.ParentTask::get_ParentTaskName()": {
+          "Lines": {
+            "8": 52
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\BusinessEntities\\Project.cs": {
+      "BusinessEntities.Project": {
+        "System.Int32 BusinessEntities.Project::get_ProjectId()": {
+          "Lines": {
+            "9": 180
+          },
+          "Branches": []
+        },
+        "System.String BusinessEntities.Project::get_ProjectName()": {
+          "Lines": {
+            "10": 67
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> BusinessEntities.Project::get_StartDate()": {
+          "Lines": {
+            "11": 65
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> BusinessEntities.Project::get_EndDate()": {
+          "Lines": {
+            "12": 65
+          },
+          "Branches": []
+        },
+        "System.Int32 BusinessEntities.Project::get_Priority()": {
+          "Lines": {
+            "13": 65
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BusinessEntities.Project::get_ManagerId()": {
+          "Lines": {
+            "14": 109
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User BusinessEntities.Project::get_ProjectManager()": {
+          "Lines": {
+            "15": 52
+          },
+          "Branches": []
+        },
+        "System.String BusinessEntities.Project::get_Status()": {
+          "Lines": {
+            "16": 65
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\BusinessEntities\\Task.cs": {
+      "BusinessEntities.Task": {
+        "System.Int32 BusinessEntities.Task::get_TaskId()": {
+          "Lines": {
+            "10": 175
+          },
+          "Branches": []
+        },
+        "System.String BusinessEntities.Task::get_TaskName()": {
+          "Lines": {
+            "11": 80
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BusinessEntities.Task::get_ParentId()": {
+          "Lines": {
+            "12": 121
+          },
+          "Branches": []
+        },
+        "BusinessEntities.ParentTask BusinessEntities.Task::get_Parent()": {
+          "Lines": {
+            "13": 48
+          },
+          "Branches": []
+        },
+        "System.DateTime BusinessEntities.Task::get_StartDate()": {
+          "Lines": {
+            "14": 56
+          },
+          "Branches": []
+        },
+        "System.DateTime BusinessEntities.Task::get_EndDate()": {
+          "Lines": {
+            "15": 56
+          },
+          "Branches": []
+        },
+        "System.Int32 BusinessEntities.Task::get_Priority()": {
+          "Lines": {
+            "16": 56
+          },
+          "Branches": []
+        },
+        "System.Boolean BusinessEntities.Task::get_Status()": {
+          "Lines": {
+            "17": 58
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BusinessEntities.Task::get_ProjectId()": {
+          "Lines": {
+            "18": 89
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BusinessEntities.Task::get_UserId()": {
+          "Lines": {
+            "19": 100
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project BusinessEntities.Task::get_Project()": {
+          "Lines": {
+            "20": 48
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User BusinessEntities.Task::get_User()": {
+          "Lines": {
+            "21": 48
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\BusinessEntities\\User.cs": {
+      "BusinessEntities.User": {
+        "System.Int32 BusinessEntities.User::get_UserId()": {
+          "Lines": {
+            "9": 235
+          },
+          "Branches": []
+        },
+        "System.String BusinessEntities.User::get_FirstName()": {
+          "Lines": {
+            "10": 85
+          },
+          "Branches": []
+        },
+        "System.String BusinessEntities.User::get_LastName()": {
+          "Lines": {
+            "11": 87
+          },
+          "Branches": []
+        },
+        "System.Int32 BusinessEntities.User::get_EmployeeId()": {
+          "Lines": {
+            "12": 85
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BusinessEntities.User::get_ProjectId()": {
+          "Lines": {
+            "13": 118
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> BusinessEntities.User::get_TaskId()": {
+          "Lines": {
+            "14": 124
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project BusinessEntities.User::get_UserProject()": {
+          "Lines": {
+            "15": 83
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task BusinessEntities.User::get_UserTask()": {
+          "Lines": {
+            "16": 83
+          },
+          "Branches": []
+        },
+        "System.Boolean BusinessEntities.User::get_IsDeleted()": {
+          "Lines": {
+            "17": 90
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "BusinessLayer.dll": {
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\BusinessLayer\\ProjectBl.cs": {
+      "BusinessLayer.ProjectBl": {
+        "System.Collections.Generic.List`1<BusinessEntities.Project> BusinessLayer.ProjectBl::GetAllProjects()": {
+          "Lines": {
+            "18": 4,
+            "19": 4,
+            "20": 4,
+            "21": 4
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project BusinessLayer.ProjectBl::GetProject(System.Int32)": {
+          "Lines": {
+            "23": 1,
+            "24": 1,
+            "25": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean BusinessLayer.ProjectBl::UpdateProject(BusinessEntities.Project)": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "29": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean BusinessLayer.ProjectBl::AddProject(BusinessEntities.Project)": {
+          "Lines": {
+            "31": 12,
+            "32": 12,
+            "33": 12
+          },
+          "Branches": []
+        },
+        "System.Void BusinessLayer.ProjectBl::.ctor(DataAccessLayer.IProjectRepository)": {
+          "Lines": {
+            "13": 18,
+            "14": 18,
+            "15": 18,
+            "16": 18
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\BusinessLayer\\TaskBl.cs": {
+      "BusinessLayer.TaskBl": {
+        "System.Collections.Generic.List`1<BusinessEntities.Task> BusinessLayer.TaskBl::GetAllTasks()": {
+          "Lines": {
+            "19": 8,
+            "20": 8,
+            "21": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.ParentTask> BusinessLayer.TaskBl::GetAllParentTasks()": {
+          "Lines": {
+            "23": 2,
+            "24": 2,
+            "25": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.Task> BusinessLayer.TaskBl::GetAllTypeOfTasks()": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 5,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 103,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 103,
+              "EndOffset": 105,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean BusinessLayer.TaskBl::UpdateTask(BusinessEntities.Task)": {
+          "Lines": {
+            "37": 2,
+            "38": 2,
+            "39": 1,
+            "40": 1,
+            "43": 1,
+            "44": 1,
+            "46": 2
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 38,
+              "Offset": 30,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean BusinessLayer.TaskBl::AddTask(BusinessEntities.Task)": {
+          "Lines": {
+            "48": 18,
+            "49": 18,
+            "50": 9,
+            "51": 9,
+            "54": 9,
+            "55": 9,
+            "57": 18
+          },
+          "Branches": [
+            {
+              "Line": 49,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 9
+            },
+            {
+              "Line": 49,
+              "Offset": 30,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 9
+            }
+          ]
+        },
+        "System.Boolean BusinessLayer.TaskBl::DeleteTask(BusinessEntities.Task)": {
+          "Lines": {
+            "59": 1,
+            "60": 1,
+            "61": 0,
+            "62": 0,
+            "65": 1,
+            "66": 1,
+            "68": 1
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 30,
+              "EndOffset": 78,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Boolean BusinessLayer.TaskBl::EndTask(System.Int32)": {
+          "Lines": {
+            "70": 1,
+            "71": 1,
+            "72": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task BusinessLayer.TaskBl::GetTask(System.Int32,System.Boolean)": {
+          "Lines": {
+            "74": 1,
+            "75": 1,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "81": 1,
+            "82": 1,
+            "84": 1
+          },
+          "Branches": [
+            {
+              "Line": 75,
+              "Offset": 4,
+              "EndOffset": 6,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 4,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void BusinessLayer.TaskBl::.ctor(DataAccessLayer.ITaskRepository)": {
+          "Lines": {
+            "14": 34,
+            "15": 34,
+            "16": 34,
+            "17": 34
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\BusinessLayer\\UserBI.cs": {
+      "BusinessLayer.UserBl": {
+        "System.Collections.Generic.List`1<BusinessEntities.User> BusinessLayer.UserBl::GetAllUsers()": {
+          "Lines": {
+            "18": 4,
+            "19": 4,
+            "20": 4
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User BusinessLayer.UserBl::GetUser(System.Int32)": {
+          "Lines": {
+            "22": 1,
+            "23": 1,
+            "24": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean BusinessLayer.UserBl::UpdateUser(BusinessEntities.User)": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean BusinessLayer.UserBl::AddUser(BusinessEntities.User)": {
+          "Lines": {
+            "30": 16,
+            "31": 16,
+            "32": 16
+          },
+          "Branches": []
+        },
+        "System.Void BusinessLayer.UserBl::.ctor(DataAccessLayer.IUserRepository)": {
+          "Lines": {
+            "13": 22,
+            "14": 22,
+            "15": 22,
+            "16": 22
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "DataAccessLayer.dll": {
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\DataAccessLayer\\ProjectManagerContext.cs": {
+      "DataAccessLayer.ProjectManagerContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<BusinessEntities.ParentTask> DataAccessLayer.ProjectManagerContext::get_ParentTasks()": {
+          "Lines": {
+            "17": 92
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<BusinessEntities.Task> DataAccessLayer.ProjectManagerContext::get_Tasks()": {
+          "Lines": {
+            "18": 92
+          },
+          "Branches": []
+        },
+        "System.Void DataAccessLayer.ProjectManagerContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 1,
+            "29": 2,
+            "31": 1,
+            "32": 2,
+            "33": 2,
+            "34": 2,
+            "35": 1,
+            "36": 2,
+            "37": 1,
+            "38": 1,
+            "39": 2,
+            "41": 1,
+            "42": 2,
+            "43": 2,
+            "44": 2,
+            "45": 1,
+            "46": 2,
+            "47": 1,
+            "49": 1,
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "53": 1,
+            "54": 2,
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 24,
+              "Offset": 20,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 58,
+              "EndOffset": 60,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 58,
+              "EndOffset": 83,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 470,
+              "EndOffset": 472,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 41,
+              "Offset": 470,
+              "EndOffset": 495,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 49,
+              "Offset": 660,
+              "EndOffset": 662,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 49,
+              "Offset": 660,
+              "EndOffset": 685,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 22,
+              "Offset": 7,
+              "EndOffset": 996,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void DataAccessLayer.ProjectManagerContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<DataAccessLayer.ProjectManagerContext>)": {
+          "Lines": {
+            "13": 92,
+            "14": 92,
+            "15": 92
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\DataAccessLayer\\ProjectRepository.cs": {
+      "DataAccessLayer.ProjectRepository": {
+        "System.Collections.Generic.List`1<BusinessEntities.Project> DataAccessLayer.ProjectRepository::GetAllProjects()": {
+          "Lines": {
+            "20": 4,
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project DataAccessLayer.ProjectRepository::GetProject(System.Int32)": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.ProjectRepository::UpdateProject(BusinessEntities.Project)": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.ProjectRepository::AddProject(BusinessEntities.Project)": {
+          "Lines": {
+            "39": 12,
+            "40": 12,
+            "41": 12,
+            "42": 12,
+            "43": 12
+          },
+          "Branches": []
+        },
+        "System.Void DataAccessLayer.ProjectRepository::.ctor(DataAccessLayer.ProjectManagerContext)": {
+          "Lines": {
+            "15": 18,
+            "16": 18,
+            "17": 18,
+            "18": 18
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\DataAccessLayer\\TaskRepository.cs": {
+      "DataAccessLayer.TaskRepository": {
+        "System.Collections.Generic.List`1<BusinessEntities.Task> DataAccessLayer.TaskRepository::GetAllTasks()": {
+          "Lines": {
+            "20": 9,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 9
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task DataAccessLayer.TaskRepository::GetTask(System.Int32)": {
+          "Lines": {
+            "26": 1,
+            "27": 1,
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.ParentTask DataAccessLayer.TaskRepository::GetParentTask(System.Int32)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.ParentTask> DataAccessLayer.TaskRepository::GetAllParentTasks()": {
+          "Lines": {
+            "40": 3,
+            "41": 3,
+            "42": 3,
+            "43": 3,
+            "44": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.TaskRepository::UpdateTask(BusinessEntities.Task)": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.TaskRepository::UpdateParentTask(BusinessEntities.ParentTask)": {
+          "Lines": {
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "56": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.TaskRepository::AddTask(BusinessEntities.Task)": {
+          "Lines": {
+            "58": 9,
+            "59": 9,
+            "60": 9,
+            "61": 9,
+            "62": 9
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.TaskRepository::AddParentTask(BusinessEntities.ParentTask)": {
+          "Lines": {
+            "64": 9,
+            "65": 9,
+            "66": 9,
+            "67": 9,
+            "68": 9
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.TaskRepository::DeleteTask(BusinessEntities.Task)": {
+          "Lines": {
+            "70": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.TaskRepository::DeleteParentTask(BusinessEntities.ParentTask)": {
+          "Lines": {
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.TaskRepository::EndTask(System.Int32)": {
+          "Lines": {
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1
+          },
+          "Branches": []
+        },
+        "System.Void DataAccessLayer.TaskRepository::.ctor(DataAccessLayer.ProjectManagerContext)": {
+          "Lines": {
+            "15": 34,
+            "16": 34,
+            "17": 34,
+            "18": 34
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\DataAccessLayer\\UserRepository.cs": {
+      "DataAccessLayer.UserRepository": {
+        "System.Collections.Generic.List`1<BusinessEntities.User> DataAccessLayer.UserRepository::GetAllUsers()": {
+          "Lines": {
+            "20": 4,
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4,
+            "25": 4,
+            "26": 4
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User DataAccessLayer.UserRepository::GetUser(System.Int32)": {
+          "Lines": {
+            "28": 1,
+            "29": 1,
+            "30": 1,
+            "31": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.UserRepository::UpdateUser(BusinessEntities.User)": {
+          "Lines": {
+            "35": 1,
+            "36": 1,
+            "37": 1,
+            "38": 1,
+            "39": 1,
+            "40": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean DataAccessLayer.UserRepository::AddUser(BusinessEntities.User)": {
+          "Lines": {
+            "42": 16,
+            "43": 16,
+            "44": 16,
+            "45": 16,
+            "46": 16
+          },
+          "Branches": []
+        },
+        "System.Void DataAccessLayer.UserRepository::.ctor(DataAccessLayer.ProjectManagerContext)": {
+          "Lines": {
+            "15": 22,
+            "16": 22,
+            "17": 22,
+            "18": 22
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ProjectManagerAPI.dll": {
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerAPI\\Program.cs": {
+      "ProjectManagerApi.Program": {
+        "System.Void ProjectManagerApi.Program::Main(System.String[])": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Hosting.IWebHostBuilder ProjectManagerApi.Program::CreateWebHostBuilder(System.String[])": {
+          "Lines": {
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerAPI\\Startup.cs": {
+      "ProjectManagerApi.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration ProjectManagerApi.Startup::get_Configuration()": {
+          "Lines": {
+            "28": 0
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 47,
+              "EndOffset": 49,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 47,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 97,
+              "EndOffset": 99,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 97,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void ProjectManagerApi.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": [
+            {
+              "Line": 59,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void ProjectManagerApi.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "ProjectManagerApi.Startup/<>c": {
+        "System.Void ProjectManagerApi.Startup/<>c::<ConfigureServices>b__4_0(Microsoft.AspNetCore.Cors.Infrastructure.CorsOptions)": {
+          "Lines": {},
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 13,
+              "EndOffset": 15,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 13,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerAPI\\Controllers\\ProjectController.cs": {
+      "ProjectManagerApi.Controllers.ProjectController": {
+        "System.Collections.Generic.List`1<BusinessEntities.Project> ProjectManagerApi.Controllers.ProjectController::GetAllProjects()": {
+          "Lines": {
+            "33": 4,
+            "34": 4,
+            "35": 4
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project ProjectManagerApi.Controllers.ProjectController::GetProject(System.Int32)": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.ProjectController::UpdateProject(BusinessEntities.Project)": {
+          "Lines": {
+            "45": 1,
+            "46": 1,
+            "47": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.ProjectController::AddProject(BusinessEntities.Project)": {
+          "Lines": {
+            "51": 12,
+            "52": 12,
+            "53": 12
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Controllers.ProjectController::.ctor(DataAccessLayer.IProjectRepository)": {
+          "Lines": {
+            "24": 18,
+            "25": 18,
+            "26": 18,
+            "27": 18,
+            "28": 18
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerAPI\\Controllers\\TaskController.cs": {
+      "ProjectManagerApi.Controllers.TaskController": {
+        "System.Collections.Generic.List`1<BusinessEntities.Task> ProjectManagerApi.Controllers.TaskController::GetAllTasks()": {
+          "Lines": {
+            "34": 8,
+            "35": 8,
+            "36": 8
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.ParentTask> ProjectManagerApi.Controllers.TaskController::GetAllParentTasks()": {
+          "Lines": {
+            "41": 2,
+            "42": 2,
+            "43": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.Task> ProjectManagerApi.Controllers.TaskController::GetAllTypeOfTasks()": {
+          "Lines": {
+            "48": 1,
+            "49": 1,
+            "50": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.TaskController::UpdateTask(BusinessEntities.Task)": {
+          "Lines": {
+            "55": 2,
+            "56": 2,
+            "57": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.TaskController::AddTask(BusinessEntities.Task)": {
+          "Lines": {
+            "62": 18,
+            "63": 18,
+            "64": 18
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.TaskController::DeleteTask(BusinessEntities.Task)": {
+          "Lines": {
+            "69": 1,
+            "70": 1,
+            "71": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.TaskController::EndTask(BusinessEntities.Task)": {
+          "Lines": {
+            "76": 1,
+            "77": 1,
+            "78": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task ProjectManagerApi.Controllers.TaskController::GetTask(System.Int32,System.Boolean)": {
+          "Lines": {
+            "82": 1,
+            "83": 1,
+            "84": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Controllers.TaskController::.ctor(DataAccessLayer.ITaskRepository)": {
+          "Lines": {
+            "25": 34,
+            "26": 34,
+            "27": 34,
+            "28": 34,
+            "29": 34
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerAPI\\Controllers\\UserController.cs": {
+      "ProjectManagerApi.Controllers.UserController": {
+        "System.Collections.Generic.List`1<BusinessEntities.User> ProjectManagerApi.Controllers.UserController::GetAllUsers()": {
+          "Lines": {
+            "28": 4,
+            "29": 4,
+            "30": 4
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User ProjectManagerApi.Controllers.UserController::GetUser(System.Int32)": {
+          "Lines": {
+            "34": 1,
+            "35": 1,
+            "36": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.UserController::UpdateUser(BusinessEntities.User)": {
+          "Lines": {
+            "40": 1,
+            "41": 1,
+            "42": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Controllers.UserController::AddUser(BusinessEntities.User)": {
+          "Lines": {
+            "46": 16,
+            "47": 16,
+            "48": 16
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Controllers.UserController::.ctor(DataAccessLayer.IUserRepository)": {
+          "Lines": {
+            "20": 22,
+            "21": 22,
+            "22": 22,
+            "23": 22,
+            "24": 22
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ProjectManagerApi.tests.dll": {
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerApi.tests\\obj\\Debug\\netcoreapp2.1\\projectmanagerapi.tests.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerApi.tests\\ObjectCopier.cs": {
+      "ProjectManagerApi.Tests.ObjectCopier": {
+        "T ProjectManagerApi.Tests.ObjectCopier::CloneObject(T)": {
+          "Lines": {
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 12,
+              "EndOffset": 27,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerApi.tests\\ProjectControllerTest.cs": {
+      "ProjectManagerApi.Tests.ProjectControllerTest": {
+        "System.String ProjectManagerApi.Tests.ProjectControllerTest::get_ContextGuid()": {
+          "Lines": {
+            "21": 19,
+            "22": 19,
+            "23": 19
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::set_ContextGuid(System.String)": {
+          "Lines": {
+            "25": 4,
+            "26": 4,
+            "27": 4
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::Init()": {
+          "Lines": {
+            "32": 4,
+            "33": 4,
+            "34": 4
+          },
+          "Branches": []
+        },
+        "DataAccessLayer.ProjectManagerContext ProjectManagerApi.Tests.ProjectControllerTest::CreateContext()": {
+          "Lines": {
+            "36": 19,
+            "37": 19,
+            "38": 19,
+            "39": 19,
+            "40": 19
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::CleanUp()": {
+          "Lines": {
+            "44": 4,
+            "45": 4,
+            "46": 4
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::AddProjectTest()": {
+          "Lines": {
+            "50": 1,
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::UpdateProjectTest()": {
+          "Lines": {
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "63": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::GetProjectTest()": {
+          "Lines": {
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::GetAllProjectsTest()": {
+          "Lines": {
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "90": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project ProjectManagerApi.Tests.ProjectControllerTest::MockFirstProject()": {
+          "Lines": {
+            "96": 5,
+            "97": 5,
+            "98": 5,
+            "99": 5,
+            "100": 5,
+            "101": 5,
+            "102": 5,
+            "103": 5,
+            "104": 5,
+            "105": 5,
+            "106": 5
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User ProjectManagerApi.Tests.ProjectControllerTest::MockFirstUser()": {
+          "Lines": {
+            "110": 4,
+            "111": 4,
+            "112": 4,
+            "113": 4,
+            "114": 4,
+            "115": 4,
+            "116": 4,
+            "117": 4,
+            "118": 4
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project ProjectManagerApi.Tests.ProjectControllerTest::MockSecondProject()": {
+          "Lines": {
+            "120": 1,
+            "121": 1,
+            "122": 1,
+            "123": 1,
+            "124": 1,
+            "125": 1,
+            "126": 1,
+            "127": 1,
+            "128": 1,
+            "129": 1,
+            "130": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.ProjectControllerTest::AddProject(BusinessEntities.Project)": {
+          "Lines": {
+            "133": 5,
+            "134": 5,
+            "135": 5,
+            "136": 5,
+            "137": 5,
+            "138": 5,
+            "140": 5
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.ProjectControllerTest::UpdateProject(BusinessEntities.Project)": {
+          "Lines": {
+            "143": 1,
+            "144": 1,
+            "145": 1,
+            "146": 1,
+            "147": 1,
+            "148": 1,
+            "150": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project ProjectManagerApi.Tests.ProjectControllerTest::GetFirstProject()": {
+          "Lines": {
+            "153": 3,
+            "154": 3,
+            "155": 3,
+            "156": 3,
+            "157": 3,
+            "158": 3,
+            "160": 3
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project ProjectManagerApi.Tests.ProjectControllerTest::GetProject(System.Int32)": {
+          "Lines": {
+            "163": 1,
+            "164": 1,
+            "165": 1,
+            "166": 1,
+            "167": 1,
+            "168": 1,
+            "170": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.Project> ProjectManagerApi.Tests.ProjectControllerTest::GetAllProjects()": {
+          "Lines": {
+            "173": 1,
+            "174": 1,
+            "175": 1,
+            "176": 1,
+            "177": 1,
+            "178": 1,
+            "180": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.ProjectControllerTest::DeleteDB()": {
+          "Lines": {
+            "183": 4,
+            "184": 4,
+            "185": 4,
+            "186": 4,
+            "187": 4,
+            "188": 4
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.ProjectControllerTest::AddUser(BusinessEntities.User)": {
+          "Lines": {
+            "191": 4,
+            "192": 4,
+            "193": 4,
+            "194": 4,
+            "195": 4,
+            "196": 4,
+            "198": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerApi.tests\\TaskComparer.cs": {
+      "ProjectManagerApi.Tests.TaskComparer": {
+        "System.Int32 ProjectManagerApi.Tests.TaskComparer::Compare(System.Object,System.Object)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 16,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 27,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 ProjectManagerApi.Tests.TaskComparer::Compare(BusinessEntities.Task,BusinessEntities.Task)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 23,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ProjectManagerApi.Tests.ParentTaskComparer": {
+        "System.Int32 ProjectManagerApi.Tests.ParentTaskComparer::Compare(System.Object,System.Object)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 16,
+              "EndOffset": 24,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 27,
+              "EndOffset": 29,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 27,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Int32 ProjectManagerApi.Tests.ParentTaskComparer::Compare(BusinessEntities.ParentTask,BusinessEntities.ParentTask)": {
+          "Lines": {
+            "34": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 23,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerApi.tests\\TaskControllerTest.cs": {
+      "ProjectManagerApi.Tests.TaskControllerTest": {
+        "System.String ProjectManagerApi.Tests.TaskControllerTest::get_ContextGuid()": {
+          "Lines": {
+            "22": 57,
+            "23": 57,
+            "24": 57
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::set_ContextGuid(System.String)": {
+          "Lines": {
+            "26": 9,
+            "27": 9,
+            "28": 9
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::Init()": {
+          "Lines": {
+            "33": 9,
+            "34": 9,
+            "35": 9
+          },
+          "Branches": []
+        },
+        "DataAccessLayer.ProjectManagerContext ProjectManagerApi.Tests.TaskControllerTest::CreateContext()": {
+          "Lines": {
+            "37": 57,
+            "38": 57,
+            "39": 57,
+            "40": 57,
+            "41": 57
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::CleanUp()": {
+          "Lines": {
+            "45": 9,
+            "46": 9,
+            "47": 9
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::AddTaskTest()": {
+          "Lines": {
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::AddParentTaskTest()": {
+          "Lines": {
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::UpdateTaskTest()": {
+          "Lines": {
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "71": 1,
+            "72": 1,
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::UpdateParentTaskTest()": {
+          "Lines": {
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "93": 1,
+            "94": 1,
+            "95": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::EndTaskTest()": {
+          "Lines": {
+            "99": 1,
+            "100": 1,
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 1,
+            "105": 1,
+            "106": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::DeleteTaskTest()": {
+          "Lines": {
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "114": 1,
+            "115": 1,
+            "116": 1,
+            "117": 1,
+            "118": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::GetTaskTest()": {
+          "Lines": {
+            "122": 1,
+            "123": 1,
+            "124": 1,
+            "125": 1,
+            "126": 1,
+            "127": 1,
+            "128": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::GetAllTestsTest()": {
+          "Lines": {
+            "132": 1,
+            "133": 1,
+            "134": 1,
+            "135": 1,
+            "137": 1,
+            "138": 1,
+            "139": 1,
+            "140": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::GetAllTypesOfTestsTest()": {
+          "Lines": {
+            "144": 1,
+            "145": 1,
+            "146": 1,
+            "147": 1,
+            "149": 1,
+            "150": 1,
+            "151": 1,
+            "152": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Project ProjectManagerApi.Tests.TaskControllerTest::MockFirstProject()": {
+          "Lines": {
+            "155": 7,
+            "156": 7,
+            "157": 7,
+            "158": 7,
+            "159": 7,
+            "160": 7,
+            "161": 7,
+            "162": 7,
+            "163": 7,
+            "164": 7,
+            "165": 7
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User ProjectManagerApi.Tests.TaskControllerTest::MockFirstUser()": {
+          "Lines": {
+            "168": 7,
+            "169": 7,
+            "170": 7,
+            "171": 7,
+            "172": 7,
+            "173": 7,
+            "174": 7,
+            "175": 7,
+            "176": 7
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task ProjectManagerApi.Tests.TaskControllerTest::MockFirstTask()": {
+          "Lines": {
+            "180": 8,
+            "181": 8,
+            "182": 8,
+            "183": 8,
+            "184": 8,
+            "185": 8,
+            "186": 8,
+            "187": 8,
+            "188": 8,
+            "189": 8,
+            "190": 8,
+            "191": 8,
+            "192": 8
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task ProjectManagerApi.Tests.TaskControllerTest::MockSecondTask()": {
+          "Lines": {
+            "195": 2,
+            "196": 2,
+            "197": 2,
+            "198": 2,
+            "199": 2,
+            "200": 2,
+            "201": 2,
+            "202": 2,
+            "203": 2,
+            "204": 2,
+            "205": 2,
+            "206": 2,
+            "207": 2
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task ProjectManagerApi.Tests.TaskControllerTest::MockFirstParentTask()": {
+          "Lines": {
+            "210": 10,
+            "211": 10,
+            "212": 10,
+            "213": 10,
+            "214": 10,
+            "215": 10,
+            "216": 10
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.TaskControllerTest::AddTask(BusinessEntities.Task)": {
+          "Lines": {
+            "219": 18,
+            "220": 18,
+            "221": 18,
+            "222": 18,
+            "223": 18,
+            "224": 18,
+            "225": 18,
+            "227": 18
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.TaskControllerTest::UpdateTask(BusinessEntities.Task)": {
+          "Lines": {
+            "230": 2,
+            "231": 2,
+            "232": 2,
+            "233": 2,
+            "234": 2,
+            "235": 2,
+            "237": 2
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.TaskControllerTest::EndTask(BusinessEntities.Task)": {
+          "Lines": {
+            "240": 1,
+            "241": 1,
+            "242": 1,
+            "243": 1,
+            "244": 1,
+            "245": 1,
+            "247": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.TaskControllerTest::DeleteTask(BusinessEntities.Task)": {
+          "Lines": {
+            "250": 1,
+            "251": 1,
+            "252": 1,
+            "253": 1,
+            "254": 1,
+            "255": 1,
+            "257": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task ProjectManagerApi.Tests.TaskControllerTest::GetFirstTask()": {
+          "Lines": {
+            "260": 6,
+            "261": 6,
+            "262": 6,
+            "263": 6,
+            "264": 6,
+            "265": 6,
+            "267": 6
+          },
+          "Branches": []
+        },
+        "BusinessEntities.ParentTask ProjectManagerApi.Tests.TaskControllerTest::GetFirstParentTask()": {
+          "Lines": {
+            "270": 2,
+            "271": 2,
+            "272": 2,
+            "273": 2,
+            "274": 2,
+            "275": 2,
+            "277": 2
+          },
+          "Branches": []
+        },
+        "BusinessEntities.Task ProjectManagerApi.Tests.TaskControllerTest::GetTask(System.Int32)": {
+          "Lines": {
+            "280": 1,
+            "281": 1,
+            "282": 1,
+            "283": 1,
+            "284": 1,
+            "285": 1,
+            "287": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.Task> ProjectManagerApi.Tests.TaskControllerTest::GetAllTasks()": {
+          "Lines": {
+            "290": 2,
+            "291": 2,
+            "292": 2,
+            "293": 2,
+            "294": 2,
+            "295": 2,
+            "297": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.Task> ProjectManagerApi.Tests.TaskControllerTest::GetAllTypesOfTasks()": {
+          "Lines": {
+            "300": 1,
+            "301": 1,
+            "302": 1,
+            "303": 1,
+            "304": 1,
+            "305": 1,
+            "307": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::DeleteDB()": {
+          "Lines": {
+            "310": 9,
+            "311": 9,
+            "312": 9,
+            "313": 9,
+            "314": 9,
+            "315": 9
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.TaskControllerTest::AddUser(BusinessEntities.User)": {
+          "Lines": {
+            "318": 7,
+            "319": 7,
+            "320": 7,
+            "321": 7,
+            "322": 7,
+            "323": 7,
+            "325": 7
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.TaskControllerTest::AddProject(BusinessEntities.Project)": {
+          "Lines": {
+            "328": 7,
+            "329": 7,
+            "330": 7,
+            "331": 7,
+            "332": 7,
+            "333": 7,
+            "335": 7
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.TaskControllerTest::AddDependencies()": {
+          "Lines": {
+            "338": 7,
+            "339": 7,
+            "340": 7,
+            "341": 7,
+            "342": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Admin\\Documents\\Visual Studio 2017\\Projects\\ProjectManagerAPI\\ProjectManagerApi.tests\\UserControllerTest.cs": {
+      "ProjectManagerApi.Tests.UserControllerTest": {
+        "DataAccessLayer.ProjectManagerContext ProjectManagerApi.Tests.UserControllerTest::CreateContext()": {
+          "Lines": {
+            "18": 16,
+            "19": 16,
+            "20": 16,
+            "21": 16,
+            "22": 16
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.UserControllerTest::CleanUp()": {
+          "Lines": {
+            "26": 4,
+            "27": 4,
+            "28": 4
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.UserControllerTest::AddUserTest()": {
+          "Lines": {
+            "32": 1,
+            "33": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.UserControllerTest::UpdateUserTest()": {
+          "Lines": {
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.UserControllerTest::GetUserTest()": {
+          "Lines": {
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.UserControllerTest::GetAllUsersTest()": {
+          "Lines": {
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1,
+            "72": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User ProjectManagerApi.Tests.UserControllerTest::MockFirstUser()": {
+          "Lines": {
+            "75": 5,
+            "76": 5,
+            "77": 5,
+            "78": 5,
+            "79": 5,
+            "80": 5,
+            "81": 5,
+            "82": 5,
+            "83": 5
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User ProjectManagerApi.Tests.UserControllerTest::MockSecondUser()": {
+          "Lines": {
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.UserControllerTest::AddUser(BusinessEntities.User)": {
+          "Lines": {
+            "97": 5,
+            "98": 5,
+            "99": 5,
+            "100": 5,
+            "101": 5,
+            "102": 5,
+            "104": 5
+          },
+          "Branches": []
+        },
+        "System.Boolean ProjectManagerApi.Tests.UserControllerTest::UpdateUser(BusinessEntities.User)": {
+          "Lines": {
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "110": 1,
+            "111": 1,
+            "112": 1,
+            "114": 1
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User ProjectManagerApi.Tests.UserControllerTest::GetFirstUser()": {
+          "Lines": {
+            "117": 3,
+            "118": 3,
+            "119": 3,
+            "120": 3,
+            "121": 3,
+            "122": 3,
+            "124": 3
+          },
+          "Branches": []
+        },
+        "BusinessEntities.User ProjectManagerApi.Tests.UserControllerTest::GetUser(System.Int32)": {
+          "Lines": {
+            "127": 1,
+            "128": 1,
+            "129": 1,
+            "130": 1,
+            "131": 1,
+            "132": 1,
+            "134": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<BusinessEntities.User> ProjectManagerApi.Tests.UserControllerTest::GetAllUsers()": {
+          "Lines": {
+            "137": 1,
+            "138": 1,
+            "139": 1,
+            "140": 1,
+            "141": 1,
+            "142": 1,
+            "144": 1
+          },
+          "Branches": []
+        },
+        "System.Void ProjectManagerApi.Tests.UserControllerTest::DeleteDB()": {
+          "Lines": {
+            "147": 5,
+            "148": 5,
+            "149": 5,
+            "150": 5,
+            "151": 5,
+            "152": 5
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

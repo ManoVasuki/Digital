@@ -1,0 +1,28 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.deps.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CopyComplete
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.pdb
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.deps.json
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.dll
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessLayer.pdb
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.dll
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.dll
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\BusinessEntities.pdb
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\bin\Debug\netcoreapp2.1\DataAccessLayer.pdb
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.AssemblyInfo.cs
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.csproj.CopyComplete
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.dll
+C:\Users\Admin\Desktop\FINAL SBA\ProjectManagerAPI\BusinessLayer\obj\Debug\netcoreapp2.1\BusinessLayer.pdb

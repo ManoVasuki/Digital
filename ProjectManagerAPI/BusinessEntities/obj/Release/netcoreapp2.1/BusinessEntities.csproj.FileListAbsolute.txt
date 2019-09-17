@@ -1,0 +1,9 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\bin\Release\netcoreapp2.1\BusinessEntities.deps.json
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\bin\Release\netcoreapp2.1\BusinessEntities.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\bin\Release\netcoreapp2.1\BusinessEntities.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\obj\Release\netcoreapp2.1\BusinessEntities.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\obj\Release\netcoreapp2.1\BusinessEntities.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\obj\Release\netcoreapp2.1\BusinessEntities.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\obj\Release\netcoreapp2.1\BusinessEntities.AssemblyInfo.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\obj\Release\netcoreapp2.1\BusinessEntities.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\ProjectManagerAPI\BusinessEntities\obj\Release\netcoreapp2.1\BusinessEntities.pdb
